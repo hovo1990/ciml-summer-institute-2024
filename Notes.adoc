@@ -1,0 +1,8 @@
+= Day 1 June 25, 2024
+
+
+1. Parallel concepts (2.2.)
+    a) Need good justification for ACCESS for CPU and GPU to convince
+    b)     2.2_parallel_computing_concepts/Parallel concepts CIML.pdf
+    c) **High throughput jobs** is when running many small jobs that use one core or one gpu
+    d) 
