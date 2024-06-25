@@ -1,3 +1,13 @@
+= How to fetch from upstream
+
+[source,bash]
+----
+git remote add upstream git@github.com:ciml-org/ciml-summer-institute-2024.git
+git fetch upstream   
+git merge upstream/main
+----
+
+
 = Day 1 June 25, 2024
 
 
