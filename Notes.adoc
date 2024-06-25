@@ -98,4 +98,4 @@ git merge upstream/main
     4) docker not ideal in HPC
     5) docker not designed for batch based workflows
     6) https://github.com/mkandes/naked-singularity
-    7) 
+    7) even building containers, run in interactive session, not on login node
