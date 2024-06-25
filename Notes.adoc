@@ -52,3 +52,5 @@
     5) module load aria2/1.35.0
     6) get info filesystem: cat /etc/auto.home | grep $USER
     7) don't download big data from github or gitlab (no git for big files)
+    8) filesystem biggest problem for SDSC Expanse
+    9) Lustre filesystem more finicky and fragile
