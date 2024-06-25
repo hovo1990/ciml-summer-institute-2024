@@ -23,4 +23,5 @@
     19) Another big problem is uneven load balancing
     20) Divide large problem into small chunks
     21) How do we know how many CPUs/GPUs to use. only way to do **scaling study**  for a **representative problem** is run on a different number of processors.
-    22) 
+    22) Right way of scaling plot is **log axes**, code in https://github.com/hovo1990/Parallel-computing-concepts 
+    23) close to 100% efficiency, nextflow also creates automatic checkpoints
