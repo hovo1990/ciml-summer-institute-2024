@@ -36,3 +36,5 @@
     8) SLURM one of the most popular schedulers
     9) People are "afraid" of command line
     10) Projects and accounts organized by Unix groups for accountability
+    11) partition or queues the same thing, but different names on different schedulers
+    12) 
