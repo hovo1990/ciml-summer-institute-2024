@@ -88,4 +88,4 @@ git merge upstream/main
     8) Porting code to HIP and SYCL for Amber 
     9) Translating CUDA to HIP not so straightforward
     10) SYCL is nice, but NVIDIA not helping
-    11) 
+    11) Move data only once at the beginning and use much as possible
