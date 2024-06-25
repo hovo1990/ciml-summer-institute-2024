@@ -73,3 +73,5 @@ git merge upstream/main
     16) metadata operations are the most annoying one for lustre and ceph
     17) be mindful not to hurt the filesystem
     18) Globus (GridFTP) started by university of Chicago, parallel file transfer system
+    19) Globus available from a web interface, it also checks data integrity and use parallel capabilities
+    20) Globus are connected via research network with very fast internet connection
