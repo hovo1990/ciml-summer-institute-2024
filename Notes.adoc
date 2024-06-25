@@ -91,3 +91,6 @@ git merge upstream/main
     11) Move data only once at the beginning and use much as possible
     12) nvidia hpc is different from nvidia toolkit
     13) 
+5. Containers
+    1) Slurm batch examples in /cm/shared/examples/sdsc
+    2) 
