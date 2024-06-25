@@ -26,3 +26,9 @@
     22) Right way of scaling plot is **log axes**, code in https://github.com/hovo1990/Parallel-computing-concepts 
     23) close to 100% efficiency, nextflow also creates automatic checkpoints, jobs only running for 48 hours on the SDSC Expanse
 2. Batch jobs with slurm
+    1) HPC compute node dell c4140 in expanse with xeon gold 6248 and tesla v100
+    2) ./2.3_getting_started_with_batch_jobs_scheduling/run-tf2-train-cnn-cifar.sh
+    3) Interactive vs Batch computing
+    4) Batch job is a pre-scripted sets of commands
+    5) batch job scheduler is air traffic controller analogy
+    6) 
