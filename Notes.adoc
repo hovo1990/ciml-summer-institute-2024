@@ -48,4 +48,4 @@
     1) wget, curl, aria2c 
     2) CIFAR-100 dataset for computer vision
     3) wget https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
-    4) 
+    4) Bright cluster manager NVIDIA all the way on the EXPANSE
