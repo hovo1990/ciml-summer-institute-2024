@@ -59,4 +59,6 @@
     12) Lustre behind the scenes quite complicated and can get fragile, designed for writing large files at an interval
     13) Ceph filesystem provides, block, file and object based storage,  ceph may be a more common target source and/or destination storage system for your data transfers in the future.
     14) Large systems not backed up, so copy your files back, and ceph a little bit more robust
-    15) 
+    15)  What is GLOBUS endpoints and GLOBUS
+    16) metadata operations are the most annoying one for lustre and ceph
+    17) be mindful not to hurt the filesystem
