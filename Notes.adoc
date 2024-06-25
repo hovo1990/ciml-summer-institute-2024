@@ -77,3 +77,6 @@ git merge upstream/main
     20) Globus are connected via research network with very fast internet connection
     21) They also have a command line tool
     22) https://github.com/globus/globus-compute 
+4. GPU computing
+    1) for bigger parameters you need bigger data
+    2) 
