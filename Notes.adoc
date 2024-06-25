@@ -37,4 +37,5 @@
     9) People are "afraid" of command line
     10) Projects and accounts organized by Unix groups for accountability
     11) partition or queues the same thing, but different names on different schedulers
-    12) 
+    12) sinfo command to query information about cluster
+    13) 
