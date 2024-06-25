@@ -1,0 +1,14 @@
+##
+## THIS FILE IS MANAGED BY bright-ansible
+## See: /var/bright-ansible/files/etc/auto.master
+##
+
+# /etc/auto.home is symlinked to /cm/shared/apps/sdsc/sys/auto.home
+/home              /etc/auto.home      --timeout=1200
+# /etc/auto.projects is symlinked to /cm/shared/apps/sdsc/sys/auto.projects
+/expanse/projects  /etc/auto.projects  --timeout=1200
+# /etc/auto.cvmfs is actually a binary for cvmfs
+/cvmfs             /etc/auto.cvmfs     --timeout=1200
+
++dir:/etc/auto.master.d
+

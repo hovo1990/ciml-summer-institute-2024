@@ -49,3 +49,5 @@
     2) CIFAR-100 dataset for computer vision
     3) wget https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
     4) Bright cluster manager NVIDIA all the way on the EXPANSE
+    5) module load aria2/1.35.0
+    6) get info filesystem: cat /etc/auto.home | grep $USER
