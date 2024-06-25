@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 #SBATCH --job-name=train-cnn-cifar-c10-fp32-e42-bs256-tensorflow-22.08-tf2-py3-1v100
-#SBATCH --account=use300
+#SBATCH --account=gue998
 #SBATCH --partition=gpu-debug
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=10
