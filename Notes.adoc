@@ -46,3 +46,6 @@
     18) galyleo output of the slurm job stored in .galyleo
 3. Data filesystems and transfer
     1) wget, curl, aria2c 
+    2) CIFAR-100 dataset for computer vision
+    3) wget https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
+    4) 
