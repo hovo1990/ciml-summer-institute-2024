@@ -121,3 +121,5 @@ singularity pull docker://quay.io/jupyter/scipy-notebook:2024-05-27
 
 singularity shell scipy-notebook_2024-05-27.sif 
 ----
+
+    8) MPI versions must match to be able to use internode connection
