@@ -34,4 +34,4 @@
     6) Job-Shop problem
     7) all interactive jobs you run on an HPC system are usually treated the same as batch jobs
     8) SLURM one of the most popular schedulers
-    9) 
+    9) People are "afraid" of command line
