@@ -119,5 +119,5 @@ mkdir -p /scratch/$USER/job_$SLURM_JOB_ID/cache
 export SINGULARITY_CACHEDIR="/scratch/$USER/job_$SLURM_JOB_ID/cache"
 singularity pull docker://quay.io/jupyter/scipy-notebook:2024-05-27
 
-singularity shell 
+singularity shell scipy-notebook_2024-05-27.sif 
 ----
