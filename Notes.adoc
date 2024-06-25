@@ -99,3 +99,25 @@ git merge upstream/main
     5) docker not designed for batch based workflows
     6) https://github.com/mkandes/naked-singularity
     7) even building containers, run in interactive session, not on login node
+    
+
+
+[source,bash]
+----
+srun-shared
+module load singularitypro
+
+singularity version
+
+#-- * not the usual one
+singularity build docker://quay.io/jupyter/scipy-notebook:2024-05-27
+
+#-- * the usual one
+
+cd /scratch/$USER/job_$SLURM_JOB_ID
+mkdir -p /scratch/$USER/job_$SLURM_JOB_ID/cache
+export SINGULARITY_CACHEDIR="/scratch/$USER/job_$SLURM_JOB_ID/cache"
+singularity pull docker://quay.io/jupyter/scipy-notebook:2024-05-27
+
+singularity shell 
+----
