@@ -79,4 +79,10 @@ git merge upstream/main
     22) https://github.com/globus/globus-compute 
 4. GPU computing
     1) for bigger parameters you need bigger data
-    2) 
+    2) SDSC Voyager uses Intel Habana, some are for training, others for inference
+    3) Newer generation liquid cooled, air cooled not enough for the supercomputer
+    4) Harder to program on GPUs
+    5)  less than 32 bit operations is worrisome
+    6)  if you use ml framework such as pytorch no need to worry, but otherwise tricky
+    7)  a millisecond simulation to do it right for MD
+    8) 
