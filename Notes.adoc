@@ -62,4 +62,4 @@
     15)  What is GLOBUS endpoints and GLOBUS
     16) metadata operations are the most annoying one for lustre and ceph
     17) be mindful not to hurt the filesystem
-    18) Globus started by university of Chicago, parallel file transfer system
+    18) Globus (GridFTP) started by university of Chicago, parallel file transfer system
