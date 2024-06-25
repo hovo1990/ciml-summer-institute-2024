@@ -76,3 +76,4 @@ git merge upstream/main
     19) Globus available from a web interface, it also checks data integrity and use parallel capabilities
     20) Globus are connected via research network with very fast internet connection
     21) They also have a command line tool
+    22) https://github.com/globus/globus-compute 
