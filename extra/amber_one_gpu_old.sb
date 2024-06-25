@@ -1,0 +1,15 @@
+#!/bin/bash
+#SBATCH -p gpu-shared
+#SBATCH -t 00:30:00
+#SBATCH --gpus=1
+#SBATCH --export=none
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --account=XYZ123
+
+module reset
+module load gpu/0.15.4
+module load openmpi
+module load amber
+
+pmemd.cuda -O -i mdin.GPU -o mdout-OneGPU.$SLURM_JOBID -p prmtop -c inpcrd 

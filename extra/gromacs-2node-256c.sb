@@ -1,0 +1,36 @@
+#!/usr/bin/env bash
+#SBATCH --job-name=gromacs-2020.4-expanse-cpu
+#SBATCH --account=use300
+#SBATCH --partition=compute
+#SBATCH --nodes=2
+#SBATCH --ntasks-per-node=16
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=249325M
+#SBATCH --time=01:00:00
+#SBATCH --output=gromacs-2020.4-expanse-cpu.%j.out
+
+module purge
+module load slurm
+module load cpu/0.15.4
+module load gcc/10.2.0
+module load openmpi
+module load gromacs
+
+mpirun --mca btl_openib_allow_ib true -np 1  gmx_mpi grompp \
+  -f pme.mdp \
+  -c conf.gro \
+  -p topol.top \
+  -po "mdout.${SLURM_JOB_ID}.mdp" \
+  -o "topol.${SLURM_JOB_ID}.tpr"
+
+export OMP_NUM_THREADS=8
+mpirun --mca btl_openib_allow_ib true -np 32  gmx_mpi mdrun \
+  -pin on \
+  -resethway \
+  -noconfout \
+  -nsteps 16000 \
+  -s "topol.${SLURM_JOB_ID}.tpr" \
+  -cpo "state.${SLURM_JOB_ID}.cpt" \
+  -e "ener.${SLURM_JOB_ID}.edr" \
+  -g "md.${SLURM_JOB_ID}.log" \
+  -v
