@@ -94,3 +94,6 @@ git merge upstream/main
 5. Containers
     1) Slurm batch examples in /cm/shared/examples/sdsc
     2) funny moment: Build one, run (almost) anywhere about containers
+    3) multi node container jobs are sticky points
+    4) docker not ideal in HPC
+    5) 
