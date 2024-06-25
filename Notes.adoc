@@ -85,4 +85,7 @@ git merge upstream/main
     5)  less than 32 bit operations is worrisome
     6)  if you use ml framework such as pytorch no need to worry, but otherwise tricky
     7)  a millisecond simulation to do it right for MD
-    8) 
+    8) Porting code to HIP and SYCL for Amber 
+    9) Translating CUDA to HIP not so straightforward
+    10) SYCL is nice, but NVIDIA not helping
+    11) 
