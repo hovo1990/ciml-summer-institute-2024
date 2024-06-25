@@ -55,3 +55,4 @@
     8) filesystem biggest problem for SDSC Expanse
     9) Lustre filesystem more finicky and fragile
     10) srun-shared is an alias
+    11) scratch folder at /scratch/$USER/job_$SLUR_JOB_ID big update, much much faster
