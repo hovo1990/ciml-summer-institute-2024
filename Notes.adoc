@@ -51,3 +51,4 @@
     4) Bright cluster manager NVIDIA all the way on the EXPANSE
     5) module load aria2/1.35.0
     6) get info filesystem: cat /etc/auto.home | grep $USER
+    7) don't download big data from github or gitlab (no git for big files)
