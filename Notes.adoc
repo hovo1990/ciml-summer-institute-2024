@@ -21,4 +21,5 @@
     17) Fraction means amount of work, not lines of code in amdal`s law
     18) The amount of serial will always limit your speed
     19) Another big problem is uneven load balancing
-    20)
+    20) Divide large problem into small chunks
+    21) 
