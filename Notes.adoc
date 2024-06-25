@@ -42,5 +42,7 @@
     14) scancer <<job_id>>
     15) output hidden at .ood_portal when running tasks from the portal
     16) sbatch <<job_file.sh>>
+    17) https://github.com/mkandes/galyleo?tab=readme-ov-file 
+    18) galyleo output of the slurm job stored in .galyleo
 3. Data filesystems and sync
     1) 
