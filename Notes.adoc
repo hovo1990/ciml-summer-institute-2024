@@ -54,4 +54,4 @@
     7) don't download big data from github or gitlab (no git for big files)
     8) filesystem biggest problem for SDSC Expanse
     9) Lustre filesystem more finicky and fragile
-    10) 
+    10) srun-shared is an alias
