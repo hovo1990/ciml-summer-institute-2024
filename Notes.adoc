@@ -44,5 +44,5 @@
     16) sbatch <<job_file.sh>>
     17) https://github.com/mkandes/galyleo?tab=readme-ov-file 
     18) galyleo output of the slurm job stored in .galyleo
-3. Data filesystems and sync
-    1) 
+3. Data filesystems and transfer
+    1) wget, curl, aria2c 
