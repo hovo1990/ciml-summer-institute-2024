@@ -96,4 +96,6 @@ git merge upstream/main
     2) funny moment: Build one, run (almost) anywhere about containers
     3) multi node container jobs are sticky points
     4) docker not ideal in HPC
-    5) 
+    5) docker not designed for batch based workflows
+    6) https://github.com/mkandes/naked-singularity
+    7) 
