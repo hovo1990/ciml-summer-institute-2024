@@ -93,4 +93,4 @@ git merge upstream/main
     13) 
 5. Containers
     1) Slurm batch examples in /cm/shared/examples/sdsc
-    2) 
+    2) funny moment: Build one, run (almost) anywhere about containers
