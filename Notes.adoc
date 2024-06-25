@@ -126,3 +126,4 @@ singularity shell --bin /expanse,/scratch scipy-notebook_2024-05-27.sif
 ----
 
     8) MPI versions must match to be able to use internode connection
+    9) Put the singularity images on /expanse/lustre filesystem
