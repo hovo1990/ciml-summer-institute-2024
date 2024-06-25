@@ -22,4 +22,5 @@
     18) The amount of serial will always limit your speed
     19) Another big problem is uneven load balancing
     20) Divide large problem into small chunks
-    21) 
+    21) How do we know how many CPUs/GPUs to use. only way to do **scaling study**  for a **representative problem** is run on a different number of processors.
+    22) 
