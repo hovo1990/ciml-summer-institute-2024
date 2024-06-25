@@ -31,4 +31,7 @@
     3) Interactive vs Batch computing
     4) Batch job is a pre-scripted sets of commands
     5) batch job scheduler is air traffic controller analogy
-    6) 
+    6) Job-Shop problem
+    7) all interactive jobs you run on an HPC system are usually treated the same as batch jobs
+    8) SLURM one of the most popular schedulers
+    9) 
