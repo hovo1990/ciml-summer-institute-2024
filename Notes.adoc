@@ -6,14 +6,19 @@
     2)     2.2_parallel_computing_concepts/Parallel concepts CIML.pdf
     3) **High throughput jobs** is when running many small jobs that use one core or one gpu
     4) Threads and processes are both independent sequences of execution
-    5) Being aware of threads and processses will help you understand how your code is utilizing the hardware and identify common problems.
+    5) Being aware of threads and processes will help you understand how your code is utilizing the hardware and identify common problems.
     6) MPI is for parallelizing C, C++ and Fortran code, is the defacto standard.
     7) Horovod and NCCL for parallelizing deep learning application.
     8) MPI pretty low level between assembly and C
     9) Use appropriate MPI wrappers
     10) MPI is library, OpenMP is an interface
     11) OpenMP more readable than MPI
-    12)MPICH and OpenMPI are just implemations for MPI
+    12)MPICH and OpenMPI are just implementation for MPI
     13) GCC includes and implements OpenMP standard
     14) 1 process per core on MPI
-    15) 
+    15) Hybrid apps what balance, best way is to do benchmarking and see what works best
+    16) Throwing more hardware it won't make faster and amdahl`s law is important
+    17) Fraction means amount of work, not lines of code in amdal`s law
+    18) The amount of serial will always limit your speed
+    19) Another big problem is uneven load balancing
+    20)
