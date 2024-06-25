@@ -89,4 +89,5 @@ git merge upstream/main
     9) Translating CUDA to HIP not so straightforward
     10) SYCL is nice, but NVIDIA not helping
     11) Move data only once at the beginning and use much as possible
-    12) 
+    12) nvidia hpc is different from nvidia toolkit
+    13) 
