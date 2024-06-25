@@ -75,3 +75,4 @@ git merge upstream/main
     18) Globus (GridFTP) started by university of Chicago, parallel file transfer system
     19) Globus available from a web interface, it also checks data integrity and use parallel capabilities
     20) Globus are connected via research network with very fast internet connection
+    21) They also have a command line tool
