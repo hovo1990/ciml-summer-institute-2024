@@ -10,7 +10,7 @@
 # #SBATCH --mem=92G    
 # #SBATCH --gpus=1           
 # -----------for gpu
-#SBATCH --mem=368G          
+#SBATCH --mem=74G          
 #SBATCH --gpus=1            #use 1-4 for gpu, 1 for gpu-debug
 #SBATCH --time=00:05:00
 #SBATCH --output=slurm.gpu2x4.%x.o%j.%N.out
