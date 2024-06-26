@@ -31,5 +31,6 @@ export UCX_MAX_RNDV_RAILS=1
 #printenv 
 #nvidia-smi -q
 #nvidia-smi topo -m
+cd /home/$USER/ciml-summer-institute-2024/3.3_practical_guidelines_for_training_deep_learning_on_hpc
 
 mpirun -n 8 singularity exec --bind /expanse,/scratch --nv /cm/shared/apps/containers/singularity/tensorflow/tensorflow_22.08-tf2-py3.sif python3 ./C24_MNIST_wHVD.py > stdout-gpu2x4.txt
