@@ -147,3 +147,10 @@ dynamic
     6) 2 nodes 8 cores total 16 tasks so there are 16 ranks from 0-15
     7) mpi command runs the instances
     8) mapping genomic data onto structure https://github.com/sbl-sdsc/mmtf-genomics 
+3. NN layer architecture
+    1) vgg16-network simplest one for teaching
+    2) autoencoder part of the architecture
+    3) hidden layer named as "bottleneck" layer
+    4) autoencoder for feature learning
+    5) https://paperswithcode.com/sota interesting place
+    6) https://github.com/danielmiessler/fabric/tree/main/patterns/analyze_patent interesting stuff
