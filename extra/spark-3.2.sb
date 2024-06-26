@@ -1,0 +1,68 @@
+#!/bin/bash
+################################################################################
+#  A simple Scala based example for Spark
+#  Designed to run on SDSC's Comet resource.
+#  Mahidhar Tatineni, San Diego Supercomputer Center March 2016
+################################################################################
+#SBATCH --job-name="spark-r"
+#SBATCH --output="spark-r.%j.%N.out"
+#SBATCH --partition=compute
+#SBATCH --nodes=2
+#SBATCH --ntasks-per-node=128
+#SBATCH --mem=249325M
+#SBATCH --account=XYZ123
+#SBATCH --export=ALL
+#SBATCH -t 00:30:00
+
+### Environment setup for Hadoop and Spark
+module reset
+module load spark/3.2.1
+module load gcc/9.2.0
+module load r
+export HADOOP_CONF_DIR=$HOME/hadoopconf.$SLURM_JOBID
+export WORKDIR=`pwd`
+
+### Make some local directories
+srun -n $SLURM_NNODES --nodes=$SLURM_NNODES --ntasks-per-node=1 mkdir /scratch/$USER/job_$SLURM_JOBID/tmp
+srun -n $SLURM_NNODES --nodes=$SLURM_NNODES --ntasks-per-node=1 mkdir /scratch/$USER/job_$SLURM_JOBID/logs
+srun -n $SLURM_NNODES --nodes=$SLURM_NNODES --ntasks-per-node=1 mkdir /scratch/$USER/job_$SLURM_JOBID/work
+
+# Expanse node: 128 cores, 240 GB RAM
+#   executor-cores = 96
+#   executor-memory = 200GB
+executors=$SLURM_NNODES
+echo "Number of executors = " $executors
+
+SPARK_OPTIONS="--driver-memory 24G --driver-cores 16 --num-executors $executors --executor-cores 96 --executor-memory 200G --conf spark.executor.extraJavaOptions=-Xss512m --driver-java-options '-Xss512m' --supervise"
+
+# location of scratch space
+scratch=/scratch/$USER/job_$SLURM_JOB_ID
+
+myhadoop-configure.sh -s $scratch
+
+source $HADOOP_CONF_DIR/spark/spark-env.sh
+export SPARK_MASTER_HOST=$SPARK_MASTER_IP
+export SPARK_LOCAL_DIRS=$scratch
+export TMPDIR=$scratch/tmp
+export _JAVA_OPTIONS=-Djava.io.tmpdir=$TMPDIR
+
+### Start all daemons
+start-dfs.sh
+start-yarn.sh
+
+### Load in the necessary Spark environment variables
+source $HADOOP_CONF_DIR/spark/spark-env.sh
+
+### Start the Spark masters and workers.  Do NOT use the start-all.sh provided 
+### by Spark, as they do not correctly honor $SPARK_CONF_DIR
+myspark start
+
+spark-submit ./dataframe.R
+
+### Shut down Spark and HDFS
+myspark stop
+stop-dfs.sh
+stop-yarn.sh
+
+### Clean up
+myhadoop-cleanup.sh

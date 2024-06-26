@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+#SBATCH --job-name=orca-compute
+#SBATCH --partition=shared
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=16
+#SBATCH --mem=32G
+#SBATCH --account=XYZ123
+#SBATCH --time=00:05:00
+#SBATCH --output=orca-5.0.4-openmpi411-shared.o%j.%N
+
+module reset
+module load cpu/0.17.3b  
+module load gcc/10.2.0/npcyll4  
+module load openmpi/4.1.1/ygduf2r
+module load orca/5.0.4/2nqnnmq
+
+export UCX_NET_DEVICES='mlx5_2:1'
+export UCX_MAX_RNDV_RAILS=1
+export ORCAEXE=`which orca`
+$ORCAEXE test.inp >& test.$SLURM_JOBID.log

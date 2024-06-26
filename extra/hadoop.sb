@@ -1,0 +1,21 @@
+#!/bin/bash
+#SBATCH --job-name="hadoopanagram"
+#SBATCH --output="hadoopanagram.%j.%N.out"
+#SBATCH --partition=compute
+#SBATCH --account=XYZ123
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=128
+#SBATCH --mem=249325M
+#SBATCH -t 00:15:00
+export HADOOP_CONF_DIR=$HOME/hadoop.$SLURM_JOBID
+export WORKDIR=`pwd`
+module reset
+module load hadoop
+myhadoop-configure.sh
+start-all.sh
+hdfs dfs -mkdir -p /user/$USER/input
+hdfs dfs -put $WORKDIR/SINGLE.TXT /user/$USER/input/SINGLE.TXT
+hadoop jar $WORKDIR/AnagramJob.jar /user/$USER/input/SINGLE.TXT /user/$USER/output
+hdfs dfs -get /user/$USER/output/part* $WORKDIR/
+stop-all.sh
+myhadoop-cleanup.sh
