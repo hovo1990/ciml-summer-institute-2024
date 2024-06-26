@@ -172,3 +172,5 @@ dynamic
     1)  ls -l data/catsVsDogs/train/cats/* | wc -l
     2) https://fugue-tutorials.readthedocs.io/tutorials/integrations/ecosystem/pycaret.html for the future
     3) Attention weight is the heart of the transformer
+    4) ESM Fold by Meta uses language model for protein contacts
+    5) molecule attention transformer, molecular property prediction
