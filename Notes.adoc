@@ -143,3 +143,5 @@ singularity shell --bin /expanse,/scratch scipy-notebook_2024-05-27.sif
 dynamic
     3) mpirun -n number of tasks singularity -> python
     4) bigger batch size helps but uses more memory
+    5) slurm and mpi work in tandem, ntasks-per-node means 8 instances
+    6) 2 nodes 8 cores total 16 tasks so there are 16 ranks from 0-15
