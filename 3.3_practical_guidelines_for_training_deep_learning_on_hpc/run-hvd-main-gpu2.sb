@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 #SBATCH --job-name=tfhvd-gpu
-#SBATCH --account=gue99
+#SBATCH --account=gue998
 #SBATCH --partition=gpu
 #SBATCH --nodes=2                
 #SBATCH --ntasks-per-node=4
