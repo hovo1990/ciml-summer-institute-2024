@@ -154,3 +154,5 @@ dynamic
     4) autoencoder for feature learning
     5) https://paperswithcode.com/sota interesting place
     6) https://github.com/danielmiessler/fabric/tree/main/patterns/analyze_patent interesting stuff
+    7) lstm  architecture good for protein structure prediciton
+    8) 
