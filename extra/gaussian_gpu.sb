@@ -1,0 +1,23 @@
+#!/bin/bash
+#SBATCH --job-name="gaussian"
+#SBATCH --output="gaussian.%j.%N.out"
+#SBATCH --partition=gpu
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=40
+#SBATCH --gpus=4
+#SBATCH --export=ALL
+#SBATCH -t 00:10:00
+
+module reset
+module unload gpu/0.17.3b
+module load gpu/0.15.4
+module load gaussian/16.C.01-cuda
+exe=`which g16`
+export GAUSS_SCRDIR=/scratch/$USER/job_$SLURM_JOBID
+
+filename=water_opt_40c.dat
+bash $GAUSSIANHOME/g16/getcpusets $$
+cat $$.out $filename >file.tmp.$$
+/usr/bin/time $exe < file.tmp.$$ > $filename.out
+rm -f $$.out file.tmp.$$
