@@ -175,3 +175,4 @@ dynamic
     4) ESM Fold by Meta uses language model for protein contacts
     5) molecule attention transformer, molecular property prediction
     6) https://github.com/ardigen/MAT github link for molecule attention transformer
+    7) Bioclip for taxonomy
