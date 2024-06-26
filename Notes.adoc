@@ -134,3 +134,5 @@ singularity shell --bin /expanse,/scratch scipy-notebook_2024-05-27.sif
 
 
 1. Machine Learning overview
+    1) start jupyter-compute-tensorflow in 3.2 folder
+    2) https://gist.github.com/willirath/2176a9fa792577b269cb393995f43dda
