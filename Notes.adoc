@@ -155,4 +155,8 @@ dynamic
     5) https://paperswithcode.com/sota interesting place
     6) https://github.com/danielmiessler/fabric/tree/main/patterns/analyze_patent interesting stuff
     7) lstm  architecture good for protein structure prediciton
-    8) 
+    8) transformer architecture much better than the other ones, 
+    9) transformer advantages over rnn, long range dependencies can be captures,
+    10) bert is transformer variation
+    11) bert is a language model, but not generative
+    12) 
