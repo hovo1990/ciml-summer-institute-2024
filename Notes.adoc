@@ -159,4 +159,11 @@ dynamic
     9) transformer advantages over rnn, long range dependencies can be captures,
     10) bert is transformer variation
     11) bert is a language model, but not generative
-    12) 
+    12) GPT is also a transformer, it is generative, it is pretrained on massive amounts of data, it is unsupervised, it just predicts the next word.
+    13)  Transformer applications, nlp tasks, vision tasks, both
+    14) GANs is generative, a generator - new samples, discriminator - determines if sample is generated or from input data(real)
+    15) dataset of celeb faces
+    16) GAN applications -> image to image translation
+    17)  Generative AI ->  GAN, autoencoders, chatgpt example, dall-e, 
+    18) codex is behined github copilot.
+    19) 
