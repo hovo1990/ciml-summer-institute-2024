@@ -166,4 +166,6 @@ dynamic
     16) GAN applications -> image to image translation
     17)  Generative AI ->  GAN, autoencoders, chatgpt example, dall-e, 
     18) codex is behined github copilot.
-    19) 
+4. Transfer learning
+    1)  ls -l data/catsVsDogs/train/cats/* | wc -l
+    2) 
