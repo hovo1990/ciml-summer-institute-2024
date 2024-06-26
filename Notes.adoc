@@ -168,4 +168,4 @@ dynamic
     18) codex is behined github copilot.
 4. Transfer learning
     1)  ls -l data/catsVsDogs/train/cats/* | wc -l
-    2) 
+    2) https://fugue-tutorials.readthedocs.io/tutorials/integrations/ecosystem/pycaret.html for the future
