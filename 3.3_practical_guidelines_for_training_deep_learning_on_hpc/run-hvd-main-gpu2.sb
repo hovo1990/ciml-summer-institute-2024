@@ -3,7 +3,7 @@
 #SBATCH --job-name=tfhvd-gpu
 #SBATCH --account=gue998
 #SBATCH --partition=gpu-shared
-#SBATCH --nodes=2                
+#SBATCH --nodes=1                
 #SBATCH --ntasks-per-node=4
 #SBATCH --cpus-per-task=8
 # ----------for gpu debug------
