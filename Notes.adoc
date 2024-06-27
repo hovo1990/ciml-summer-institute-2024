@@ -199,4 +199,7 @@ dynamic
     1) exploits distributed memory to cache data, so in-memory processing
     2) Resilient Distributed Dataset (Collection of data)
     3) Data is divided into partitions
-    4) 
+    4) Great mapReduce example
+    5) Difference between DataFrame and DataSet 
+    6) How to create dataframes
+    7) Dask only Python, Spark more multi language support
