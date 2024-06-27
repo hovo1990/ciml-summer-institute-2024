@@ -222,3 +222,5 @@ dynamic
     13) LLM generated data will be used to train the next generation of LLMs
 6. LLM prompt engineering
     1) good prompt engineering is important, clarity, specificity, and context
+    2) For new topic create new chat, otherwise previous context will affect output
+    3) make sure gemini and chatgpt have same output
