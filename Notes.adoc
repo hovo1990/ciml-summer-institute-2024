@@ -186,3 +186,4 @@ dynamic
     3) do not create conda environment use the galyleo script!
     4) dask-cudf interesting
     5) Ask  for MultiNode Dask Cluster #VIP
+    6) Run JupyterLab in batch
