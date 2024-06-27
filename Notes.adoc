@@ -206,3 +206,6 @@ dynamic
     8) GraphFrames library for graph data #VIP #interesting
     9) for scaling only on the training set
     10) parallel plot for multi dimensional data
+5. LLM
+    1) Statistical relation between the words
+    2) 
