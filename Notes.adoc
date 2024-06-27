@@ -52,7 +52,7 @@ git merge upstream/main
     14) scancer <<job_id>>
     15) output hidden at .ood_portal when running tasks from the portal
     16) sbatch <<job_file.sh>>
-    17) https://github.com/mkandes/galyleo?tab=readme-ov-file 
+    17) https://github.com/mkandes/galyleo?tab=readme-ov-file  #VIP
     18) galyleo output of the slurm job stored in .galyleo
 3. Data filesystems and transfer
     1) wget, curl, aria2c 
@@ -76,7 +76,7 @@ git merge upstream/main
     19) Globus available from a web interface, it also checks data integrity and use parallel capabilities
     20) Globus are connected via research network with very fast internet connection
     21) They also have a command line tool
-    22) https://github.com/globus/globus-compute 
+    22) https://github.com/globus/globus-compute  #VIP
 4. GPU computing
     1) for bigger parameters you need bigger data
     2) SDSC Voyager uses Intel Habana, some are for training, others for inference
@@ -135,8 +135,8 @@ singularity shell --bin /expanse,/scratch scipy-notebook_2024-05-27.sif
 
 1. Machine Learning overview
     1) start jupyter-compute-tensorflow in 3.2 folder
-    2) https://gist.github.com/willirath/2176a9fa792577b269cb393995f43dda intersesting how to deploy dask from container singularity and create slurm cluster
-    3) a more interesting option on how to deploy dask https://gist.github.com/willirath/772e0de2b6fbe845f77388c3b16390ea better option
+    2) https://gist.github.com/willirath/2176a9fa792577b269cb393995f43dda intersesting how to deploy dask from container singularity and create slurm cluster #VIP
+    3) a more interesting option on how to deploy dask https://gist.github.com/willirath/772e0de2b6fbe845f77388c3b16390ea better option #VIP
 2. NN Raytune
     1) mpi is the typical parallezation stuff on HPC
     2) But, on HPC systems resources are shared so IP addresses are
@@ -154,8 +154,8 @@ dynamic
     2) autoencoder part of the architecture
     3) hidden layer named as "bottleneck" layer
     4) autoencoder for feature learning
-    5) https://paperswithcode.com/sota interesting place
-    6) https://github.com/danielmiessler/fabric/tree/main/patterns/analyze_patent interesting stuff
+    5) https://paperswithcode.com/sota #VIP interesting place
+    6) https://github.com/danielmiessler/fabric/tree/main/patterns/analyze_patent #VIP interesting stuff
     7) lstm  architecture good for protein structure prediciton
     8) transformer architecture much better than the other ones, 
     9) transformer advantages over rnn, long range dependencies can be captures,
@@ -170,7 +170,7 @@ dynamic
     18) codex is behined github copilot.
 4. Transfer learning
     1)  ls -l data/catsVsDogs/train/cats/* | wc -l
-    2) https://fugue-tutorials.readthedocs.io/tutorials/integrations/ecosystem/pycaret.html for the future
+    2) https://fugue-tutorials.readthedocs.io/tutorials/integrations/ecosystem/pycaret.html #VIP for the future
     3) Attention weight is the heart of the transformer
     4) ESM Fold by Meta uses language model for protein contacts
     5) molecule attention transformer, molecular property prediction
