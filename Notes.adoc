@@ -176,3 +176,10 @@ dynamic
     5) molecule attention transformer, molecular property prediction
     6) https://github.com/ardigen/MAT github link for molecule attention transformer
     7) Bioclip for taxonomy
+
+
+= Day 3
+
+1. Conda environments on Expanse
+    1) Peter Rose
+    2) 
