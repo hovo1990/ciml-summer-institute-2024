@@ -197,4 +197,6 @@ dynamic
     4) lasso regression used for variable selection
 3. Spark
     1) exploits distributed memory to cache data, so in-memory processing
-    
+    2) Resilient Distributed Dataset (Collection of data)
+    3) Data is divided into partitions
+    4) 
