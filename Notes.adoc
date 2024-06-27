@@ -208,7 +208,6 @@ dynamic
     10) parallel plot for multi dimensional data
 5. LLM
     1) Statistical relation between the words
-    2) LLM is more than GPT, start only 2018
     3) GPT-4 1.7 trillion parameter, but take with grain of salt, since it is closed source
     4) Common-crawl maintains a free, open repository for web crawl data https://commoncrawl.org/ #VIP #interesting
     5) Cost in US Dollars explosion
