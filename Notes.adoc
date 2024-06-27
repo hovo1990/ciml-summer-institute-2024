@@ -223,4 +223,4 @@ dynamic
     1) good prompt engineering is important, clarity, specificity, and context
     2) For new topic create new chat, otherwise previous context will affect output
     3) make sure gemini and chatgpt have same output
-    4) Marty Dask within conda much easier than inside a singularity container
+    4) Marty: Dask within conda much easier than inside a singularity container
