@@ -226,3 +226,5 @@ dynamic
     4) Marty: Dask within conda much easier than inside a singularity container
 7. Why use RAGS
     1) Can modify existing LLM with your data
+    2) RAG component is LLM
+    
