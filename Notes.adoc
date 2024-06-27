@@ -190,3 +190,7 @@ dynamic
     7) How to get account: apply allocations through ACCESS
     8) 1 GPU costs 20 CPU hours
     9) 1 millisecond it is accounted as 1 Service Unit
+2. R
+    1) R
+    2) install.packages('doParallel') inside home folder
+    3) Rscript --vanilla TestDoParallel_v1.R
