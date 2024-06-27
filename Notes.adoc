@@ -215,3 +215,6 @@ dynamic
     6) Better measure of COST how many operations
     7) Mixture of experts (MoE) models
     8) great joke about context window
+    9) think of as sliding window about tokens
+    10) no prioritization of tokens, just a sliding window
+    11) 
