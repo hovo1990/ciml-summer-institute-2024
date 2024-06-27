@@ -185,3 +185,4 @@ dynamic
     2) https://github.com/sbl-sdsc/df-parallel interesting #VIP #Examples
     3) do not create conda environment use the galyleo script!
     4) dask-cudf interesting
+    5) Ask  for MultiNode Dask Cluster #VIP
