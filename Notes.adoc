@@ -189,4 +189,4 @@ dynamic
     6) Run JupyterLab in batch example: https://github.com/sbl-sdsc/df-parallel/blob/main/problem.sh
     7) How to get account: apply allocations through ACCESS
     8) 1 GPU costs 20 CPU hours
-    9) 
+    9) 1 millisecond it is accounted as 1 Service Unit
