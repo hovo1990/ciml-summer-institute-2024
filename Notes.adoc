@@ -205,3 +205,4 @@ dynamic
     7) Dask only Python, Spark more multi language support
     8) GraphFrames library for graph data #VIP #interesting
     9) for scaling only on the training set
+    10) parallel plot for multi dimensional data
