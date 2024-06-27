@@ -224,3 +224,5 @@ dynamic
     2) For new topic create new chat, otherwise previous context will affect output
     3) make sure gemini and chatgpt have same output
     4) Marty: Dask within conda much easier than inside a singularity container
+7. Why use RAGS
+    1) Can modify existing LLM with your data
