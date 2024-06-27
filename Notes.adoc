@@ -194,3 +194,7 @@ dynamic
     1) R
     2) install.packages('doParallel') inside home folder
     3) Rscript --vanilla TestDoParallel_v1.R
+    4) lasso regression used for variable selection
+3. Spark
+    1) exploits distributed memory to cache data, so in-memory processing
+    
