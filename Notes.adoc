@@ -217,4 +217,6 @@ dynamic
     8) great joke about context window
     9) think of as sliding window about tokens
     10) no prioritization of tokens, just a sliding window
-    11) 
+    11) LLMs have an parameter named "temperature".
+    12) LLMs are limited by training set
+    13) LLM generated data will be used to train the next generation of LLMs
