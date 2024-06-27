@@ -228,4 +228,4 @@ dynamic
     1) Can modify existing LLM with your data
     2) RAG component is LLM
     3) OLLAMA custom port: OLLAMA_HOST=127.0.0.1:11435 ollama serve
-    4) 
+    4) #VIP #RAG #SERVICE https://github.com/datvodinh/rag-chatbot 
