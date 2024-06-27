@@ -232,3 +232,5 @@ dynamic
     5) #VIP #RAG #SERVICE https://www.youtube.com/watch?v=BRHfHDXlk1U
 8. Last Section for LLM
     1) Hugging face abstractions
+    2) 8B Instruction protocol on hugging face llama3-8b-instruct
+    3) it includes packages
