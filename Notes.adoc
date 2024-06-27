@@ -220,3 +220,5 @@ dynamic
     11) LLMs have an parameter named "temperature".
     12) LLMs are limited by training set
     13) LLM generated data will be used to train the next generation of LLMs
+6. LLM prompt engineering
+    1) good prompt engineering is important, clarity, specificity, and context
