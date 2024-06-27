@@ -182,6 +182,6 @@ dynamic
 
 1. Conda environments on Expanse
     1) Peter Rose
-    2) https://github.com/sbl-sdsc/df-parallel interesting #VIP 
+    2) https://github.com/sbl-sdsc/df-parallel interesting #VIP #Examples
     3) do not create conda environment use the galyleo script!
     4) dask-cudf interesting
